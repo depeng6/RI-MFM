@@ -22,11 +22,11 @@ function  [location1, location2]= main(image_1,image_2)
 
 
 
-%     des_1 = descriptor_feature(image_1,feture_1,num_1,NumLay,Pyramid_resize,sig_scale);
-% 
-%     des_2 = descriptor_feature(image_2,feture_2,num_2,NumLay,Pyramid_resize,sig_scale);
-% 
-%     [location1,location2] = match_feature(I1,I2,des_1,des_2,num_1,num_2,NumLay);
+   des_1 = descriptor_feature(image_1,feture_1,num_1,NumLay,Pyramid_resize,sig_scale);
+
+   des_2 = descriptor_feature(image_2,feture_2,num_2,NumLay,Pyramid_resize,sig_scale);
+
+   [location1,location2] = match_feature(I1,I2,des_1,des_2,num_1,num_2,NumLay);
 end
 
 
